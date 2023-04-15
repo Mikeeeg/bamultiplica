@@ -1,3 +1,9 @@
+/* Fuentes de letra */
+@font-face {
+  font-family: "Arolse Belmonteria Script";
+  src: url("../fonts/Arolse\ Belmonteria\ Serif.ttf") format("ttf");
+}
+
 /* Texto al costado de imagen en biografía */
 .img-left {
     float: left;
@@ -123,9 +129,5 @@ nav a{
       100% {transform: translate(1px, -2px);}
   }
 
-  /* Fuentes de letra */
-  @font-face {
-    font-family: "Arolse Belmonteria Script";
-    src: url("../fonts/Arolse/ Belmonteria/ Serif.ttf") format("ttf");
-  }
+  
   
