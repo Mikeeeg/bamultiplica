@@ -1,8 +1,10 @@
+/* Texto al costado de imagen en biografía */
 .img-left {
     float: left;
     margin: 0 20px 20px 0;
 }
 
+/* Tabla de tour */
 table {
   width: 100%;
   margin: 0 auto;
@@ -14,15 +16,18 @@ td {
   border: 1px sotdd #ddd;
 }
 
+/* Titulo "Taylor Swift" */
 h1 {
   font-size: 3em;
 }
 
+/* Fondo de página */
 body {
   background-color: rgb(255, 219, 231);
 
 }
 
+/* Borde y efecto de portadas de albums */
 .border {
     border: 3px solid violet;
     transition: .5s, color .10s;
@@ -37,6 +42,7 @@ body {
       -moz-transform: scale3d(1.5, 1.5, 0.3);
 }
 
+/* Barra de navegación */
 nav{
   position: fixed;
   top: 0;
@@ -89,6 +95,7 @@ nav a{
   left: 0;
 }
 
+/* Efecto de boton de "Vendra a Argentina?" */
 .shakeFix:hover{
   animation-name: shakefix;
       -webkit-animation-name: shakefix;
@@ -114,3 +121,10 @@ nav a{
       90% {transform: translate(1px, 2px);}
       100% {transform: translate(1px, -2px);}
   }
+
+  /* Fuentes de letra */
+  @font-face {
+    font-family: "Arolse Belmonteria Script";
+    src: url("../fonts/Arolse\ Belmonteria\ Serif.ttf") format("ttf");
+  }
+  
