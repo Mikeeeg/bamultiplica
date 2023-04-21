@@ -147,7 +147,8 @@ nav a{
   text-align: left;
 }
 
-audio::-webkit-media-controls {
+
+/*audio::-webkit-media-controls {
     background-color: violet;
   }
   audio::-webkit-media-controls-panel {
