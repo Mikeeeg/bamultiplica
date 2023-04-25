@@ -54,7 +54,7 @@
 
   /* Barra de navegación */
   .barra{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     margin: 0px auto 0;
@@ -110,7 +110,7 @@
   }
 
   #redes{
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -123,7 +123,7 @@
   }
 
   #ts{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     margin: 0px auto 0;
@@ -341,6 +341,11 @@ nav a{
       80% {transform: translate(-1px, -1px);}
       90% {transform: translate(1px, 2px);}
       100% {transform: translate(1px, -2px);}
+  }
+
+  iframe{
+    width: 560px;
+    height: 315px;
   }
 }
   
