@@ -4,15 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/demo.css">
         <title>Mike</title>
     </head>
     <body>
         <center>
        <header><h1>😎 Mike web 😎</h1></header>
-       <nav>
-        <a href="./pages/formulario.html" style="margin-right: 10px;">Formulario uwu</a> 
-        <a href="./proyecto_ts.html">Proyecto TS</a>
-       </nav> 
+        <nav class="menu">
+            <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="menu-items">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            </div>
+        </nav>
+      
        <p><h2>PORQUE AHORA EL CABALLERO ERA EL ARROYO. ERA LA LUNA. ERA EL SOL. PODÍA SER TODAS LAS
         COSAS A LA VEZ, Y MÁS, PORQUE ERA UNO CON EL UNIVERSO.
         ERA AMOR.</h2></p>
@@ -27,5 +39,18 @@
         <div><h3>Temon 👇</h3></div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/1GBrYY89wh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </center>
+
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle input');
+            const menu = document.querySelector('.menu-items');
+            
+            menuToggle.addEventListener('click', function() {
+              if (this.checked) {
+                menu.classList.add('open');
+              } else {
+                menu.classList.remove('open');
+              }
+            });
+        </script>
     </body>
  </html>

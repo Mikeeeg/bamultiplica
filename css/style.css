@@ -1,6 +1,6 @@
 /*Mobile*/
 
-@media(min-width: 320px){
+@media(min-width: 280px) and (max-width: 600px){
   /* Fuentes de letra */
   @font-face {
     font-family: "Arolse Belmonteria Script";
@@ -175,7 +175,7 @@
 
 /* Computadoras */
 
-@media(min-width: 1024px){
+@media(min-width: 600px){
 /* Fuentes de letra */
 @font-face {
   font-family: "Arolse Belmonteria Script";
