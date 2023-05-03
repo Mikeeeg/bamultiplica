@@ -47,6 +47,7 @@ window.onload = function() {
   }, 500); // 2000 milisegundos = 2 segundos
 };
 
+/* Boton no viene */
 function noViene() {
   alert("No 😭");
 }
