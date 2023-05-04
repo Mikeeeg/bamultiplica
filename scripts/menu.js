@@ -1,4 +1,4 @@
-/* Carrusel */
+// Carrusel
 const carousel = document.querySelector('#carouselExample');
 const prevButton = document.querySelector('.carousel-control-prev');
 const nextButton = document.querySelector('.carousel-control-next');
@@ -38,7 +38,7 @@ nextButton.addEventListener('click', moveNext);
 
 showCurrentItem();
 
-/* Pantalla de carga */
+// Pantalla de carga
 window.onload = function() {
   var pantallaCarga = document.getElementById("pantalla-carga");
 
@@ -47,8 +47,24 @@ window.onload = function() {
   }, 500); // 2000 milisegundos = 2 segundos
 };
 
-/* Boton no viene */
+// Boton no viene
 function noViene() {
   alert("No 😭");
 }
 
+// Boton Compra
+var myButton = document.getElementById("myButton");
+
+myButton.addEventListener("click", function() {
+  
+  var cardNumber = prompt("Ingrese el número de tarjeta:");
+  var cardName = prompt("Ingrese el nombre en la tarjeta:");
+  var expirationDate = prompt("Ingrese la fecha de vencimiento:");
+  var cvv = prompt("Ingrese el CVV:");
+
+  if (cardNumber === '' || cardName === '' || expirationDate === '' || cvv === '') {
+    alert("Por favor, complete todos los campos de tarjeta de crédito.");
+  } else {
+    alert("¡Datos de tarjeta completados correctamente!");
+  }
+});

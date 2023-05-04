@@ -99,7 +99,7 @@ body{
 }
 
 /* Titulo "Taylor Swift" */
-h1 {
+.cursiva {
   font-size: 3em;
   font-family: "Arolse Belmonteria Script";
 }
@@ -351,12 +351,15 @@ h1 {
   .column{
     display: grid;
     grid-template-columns: 32px 491px 32px auto;
+    margin-left: 10%;
   }
 
   .textoCompra{
-    display: flex;
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
   }
 
   /* Pantalla de carga */
@@ -386,13 +389,30 @@ h1 {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-  
-  .text-right {
-    position: absolute;
-    top: 0;
-    right: 500px;
-    padding: 10px;
-    color: black;
-    font-size: 3em;
-    text-align: center;
-  }
+
+/* Boton */
+.bottonpers{
+  background-color: black;
+  color: rgb(255, 219, 231);
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Talles */
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: black;
+}
+
+input[type="radio"]:checked + label {
+  background-color: black;
+  color: rgb(255, 219, 231);
+}
