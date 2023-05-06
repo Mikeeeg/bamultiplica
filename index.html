@@ -38,6 +38,16 @@
       </span>
   </nav>
 
+  <div class="dropdown chau">
+    <button class="dropbtn">&#9776;</button>
+    <div class="dropdown-content">
+      <a href="./pages/merch.html">Merch</a>
+      <a href="#tour">#TSTheErasTour</a>
+      <a href="#albumes">Álbumes</a>
+      <a href="#club">Unite al club</a>
+    </div>
+  </div>
+
   <!-- Biografía -->
   <div id="Biografía">   
     <img src="./images/Portadaa.jpg" alt="Portada principal" width="100%">
@@ -237,6 +247,18 @@
   </footer>
 
   <!-- Vinculación script -->
+  <script>
+    /* Obtener el botón y el menú */
+    var dropdown = document.querySelector(".dropdown");
+    var dropdownContent = document.querySelector(".dropdown-content");
+    
+    /* Agregar un evento clic al botón */
+    dropdown.addEventListener("click", function() {
+      /* Alternar la clase "show" en el menú */
+      dropdownContent.classList.toggle("show");
+    });
+  </script>
+  
   <script src="./scripts/menu.js"></script>
 </body>
 </html>
