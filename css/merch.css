@@ -1,14 +1,13 @@
 /*Mobile*/
 
 @media(min-width: 280px) and (max-width: 600px){
-  body{
-    background-color: rgb(255, 219, 231);
-}
-
 div a{
   border: 1px solid black;
-  background-image: url(../images/Merch/Fondo.webp);
-  background-size: cover;
+  background-color: rgba(93, 70, 95, 0.767);
+}
+
+h2{
+  color: white;
 }
 
 .grid{
@@ -18,6 +17,21 @@ div a{
 
 .textoDescripcion{
     display: none;
+}
+
+body{
+  /*background-color: rgb(255, 219, 231);*/
+  background-color: rgb(255, 219, 231);
+  margin: 0;
+}
+
+#fondosn{
+  background-image: url(../images/Merch/Fondo\ sn.webp);
+  background-attachment: fixed;
+}
+
+footer{
+  color: white;
 }
 
 /* Barra de navegación */  
@@ -30,7 +44,7 @@ div a{
   font-size: 16px;
   border: none;
   outline: none;
-  color: black;
+  color: white;
   background-color: inherit;
   margin: 0;
   top: 0;
@@ -38,7 +52,7 @@ div a{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  color: black;
+  color: white;
 }
 
 .dropdown-content {
@@ -51,9 +65,9 @@ div a{
 }
 
 .dropdown-content a {
-  background-color: #ac9eb8;
+  background-image: url(../images/Merch/Fondo\ speak\ now.webp);
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -71,7 +85,7 @@ div a{
   margin: 0px auto 0;
   width: 100%;
   height: 25px;
-  background: #ac9eb8;
+  background-image: url(../images/Merch/Fondo\ speak\ now.webp);
   border-radius: 0px;
   font-size: 0;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
@@ -85,7 +99,7 @@ div a{
 nav a{
   font-size: 15px;
   text-transform: uppercase;
-  color: black;
+  color: white;
   text-decoration: none;
   line-height:25px;
   padding: 0 30px;
@@ -171,14 +185,10 @@ h1 {
 /* Computadoras */
 
 @media(min-width: 600px){
-body{
-    background-color: rgb(255, 219, 231);
-}
-
 .ropa{
     width: 300px;
     margin: 0 50px;
-    background-color: rgba(128, 128, 128, 0.39);
+    background-color: rgba(93, 70, 95, 0.767);
     border-radius: 50px;
     border: 2px solid black;
     
@@ -196,6 +206,23 @@ body{
     /*background-color: rgba(128, 128, 128, 0.39);*/
     border-radius: 50px;
     border: 2px solid black;
+    background-image: url(../images/Merch/Fondo\ speak\ now.webp);
+    color: white;
+}
+
+body{
+  /*background-color: rgb(255, 219, 231);*/
+  background-color: rgb(255, 219, 231);
+  margin: 0;
+}
+
+#fondosn{
+  background-image: url(../images/Merch/Fondo\ sn.webp);
+  background-attachment: fixed;
+}
+
+footer{
+  color: white;
 }
 
 /* Barra de navegación */
@@ -210,7 +237,7 @@ body{
     margin: 0px auto 0;
     width: 100%;
     height: 25px;
-    background: #ac9eb8;
+    background-image: url(../images/Merch/Fondo\ speak\ now.webp);
     border-radius: 0px;
     font-size: 0;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
@@ -220,7 +247,7 @@ body{
   nav a{
     font-size: 15px;
     text-transform: uppercase;
-    color: black;
+    color: white;
     text-decoration: none;
     line-height:25px;
     padding: 0 30px;
