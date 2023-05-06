@@ -68,3 +68,12 @@ myButton.addEventListener("click", function() {
     alert("¡Datos de tarjeta completados correctamente!");
   }
 });
+
+// Menu desplegable
+var dropdown = document.querySelector(".dropdown");
+var dropdownContent = document.querySelector(".dropdown-content");
+
+dropdown.addEventListener("click", function() {
+
+  dropdownContent.classList.toggle("show");
+});
