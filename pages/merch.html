@@ -11,28 +11,38 @@
 
     <body>
         <br id="inicio">
-        <center><header><h1>Taylor Swift</h1></header></center>
-            <nav class="barra">
+        <center><header><h1 class="cursiva">Taylor Swift</h1></header></center>
+            <nav class="barra menu">
                 <span id="ts">
                 <a href=""><font face="Impact">Taylor Swift</font></a>
                 </span>
-
-                <span>
-                    <a href="#inicio" class="nav-link animation" style="margin-right: 10px;"><font face="Impact">Merch</font></a>
-                    <a href="../index.html" class="nav-link animation" style="margin-right: 10px;"><font face="Impact">#TSTheErasTour</font></a>
-                    <a href="../index.html" class="nav-link animation" style="margin-right: 10px;"><font face="Impact">Álbumes</font></a>
-                    <a href="../index.html" class="nav-link animation"><font face="Impact">Unite al club</font></a>
+        
+                <span class="hidden">
+                    <a href="./pages/merch.html" target="_blank" class="nav-link animation" style="margin-right: 10px;"><font face="Impact">Merch</font></a>
+                    <a href="#tour" class="nav-link animation" style="margin-right: 10px;"><font face="Impact">#TSTheErasTour</font></a>
+                    <a href="#albumes" class="nav-link animation" style="margin-right: 10px;"><font face="Impact">Álbumes</font></a>
+                    <a href="#club" class="nav-link animation"><font face="Impact">Unite al club</font></a>
                 </span>
-
+        
                 <span id="redes">
                 <audio autoplay loop style="height: 25px;">
-                    <source src="../sounds/All Too Well.mp3" type="audio/mp3">
+                    <source src="./sounds/All Too Well.mp3" type="audio/mp3">
                 </audio>
-                <a href="https://twitter.com/taylorswift13" target="_blank"><img src="../images/tw.png" alt="tw" width="25px"></a>
-                <a href="https://www.instagram.com/taylorswift/" target="_blank"><img src="../images/ig.png" alt="ig" width="25px"></a>
-                <a href="https://www.youtube.com/@TaylorSwift" target="_blank"><img src="../images/yt.png" alt="yt" width="25px"></a>
+                <a href="https://twitter.com/taylorswift13" target="_blank"><img src="../images/tw.png" alt="tw" height="25px"></a>
+                <a href="https://www.instagram.com/taylorswift/" target="_blank"><img src="../images/ig.png" alt="ig" height="25px"></a>
+                <a href="https://www.youtube.com/@TaylorSwift" target="_blank"><img src="../images/yt.png" alt="yt" height="25px"></a>
                 </span>
             </nav>
+
+            <div class="dropdown chau">
+                <button class="dropbtn">&#9776;</button>
+                <div class="dropdown-content">
+                  <a href="#inicio">Merch</a>
+                  <a href="../index.html">#TSTheErasTour</a>
+                  <a href="../index.html">Álbumes</a>
+                  <a href="../index.html">Unite al club</a>
+                </div>
+            </div>
 
         <div>
             <img src="../images/Merch/portada.jpg" alt="Portada principal" width="100%">
@@ -41,7 +51,7 @@
         <center><h2>Últimos Productos</h2></center>
         <br>
         <!--Fila 1-->
-        <div class="flexbox">
+        <div class="flexbox grid">
             <a class="ropa" href="../pages/mh1.html">
                 <img src="../images/Merch/Fila 1/2-DGjY0R7XFVORdACw3dSy_1000x1000.webp" alt="Producto 1" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 1/bbuzo.webp'"
@@ -67,7 +77,7 @@
                 <img src="../images/Merch/Fila 1/bcream.webp" alt="Producto 4 hover" width="300px" style="display:none;">
             </a>
         </div>
-    <br>
+    
         <main class="flexbox">
             <div class="textoDescripcion">
                 WASHED BLUE HOODIE 
@@ -93,10 +103,9 @@
                 $45
             </div>
         </main>
-        <br><br>
-
+        
         <!--Fila 2-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 2/buzogris.webp" alt="Producto 5" width="300px">
             </a>
@@ -119,7 +128,6 @@
                 <img src="../images/Merch/Fila 2/bbuzonegro.webp" alt="Producto 8 hover" width="300px" style="display:none;">
             </a>
         </div>
-        <br>
 
         <main class="flexbox">
             <div class="textoDescripcion">
@@ -146,10 +154,9 @@
                 $75
             </div>
         </main>
-    <br><br>
 
         <!--Fila 3-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 3/joya.webp" alt="Producto 9" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 3/bjoya.webp'"
@@ -175,7 +182,7 @@
                 <img src="../images/Merch/Fila 3/bremera.webp" alt="Producto 12 hover" width="300px" style="display:none;">
             </a>
         </div>
-    <br>
+    
         <main class="flexbox">
             <div class="textoDescripcion">
                 BEJEWELED BRACELET
@@ -201,10 +208,9 @@
                 $45
             </div>
         </main>
-        <br><br>
 
         <!--Fila 4-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 4/Buzo.webp" alt="Producto 13" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 4/bbuzo.webp'"
@@ -227,7 +233,6 @@
                 <img src="../images/Merch/Fila 4/btaza.webp" alt="Producto 16 hover" width="300px" style="display:none;">
             </a>
         </div>
-        <br>
 
         <main class="flexbox">
             <div class="textoDescripcion">
@@ -255,9 +260,8 @@
             </div>
         </main>
 
-        <br><br>
         <!--Fila 5-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 5/red.webp" alt="Producto 17" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 5/bred.webp'"
@@ -280,7 +284,7 @@
                 <img src="../images/Merch/Fila 5/bremera.webp" alt="Producto 20 hover" width="300px" style="display:none;">
             </a>
         </div>
-    <br>
+
         <main class="flexbox">
             <div class="textoDescripcion">
                 RED ALBUM T-SHIRT 
@@ -306,10 +310,9 @@
                 $45
             </div>
         </main>
-        <br><br>
 
         <!--Fila 6-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 6/buzocrema.webp" alt="Producto 21" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 6/bbuzocrema.webp'"
@@ -332,7 +335,6 @@
                 <img src="../images/Merch/Fila 6/puas.webp" alt="Producto 24" width="300px">
             </a>
         </div>
-        <br>
 
         <main class="flexbox">
             <div class="textoDescripcion">
@@ -359,10 +361,9 @@
                 $15
             </div>
         </main>
-    <br><br>
 
         <!--Fila 7-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 7/buzorosa.webp" alt="Producto 25" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 7/bbuzorosa.webp'"
@@ -382,7 +383,7 @@
                 <img src="../images/Merch/Fila 7/bauris.webp" alt="Producto 28 hover" width="300px" style="display:none;">
             </a>
         </div>
-    <br>
+
         <main class="flexbox">
             <div class="textoDescripcion">
                 CROPPED LAVENDER PULLOVER
@@ -408,10 +409,9 @@
                 $15
             </div>
         </main>
-        <br><br>
 
         <!--Fila 8-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 8/stickers.webp" alt="Producto 29" width="300px">
             </a>
@@ -431,7 +431,6 @@
                 <img src="../images/Merch/Fila 8/bvaso.webp" alt="Producto 32 hover" width="300px" style="display:none;">
             </a>
         </div>
-        <br>
 
         <main class="flexbox">
             <div class="textoDescripcion">
@@ -459,10 +458,8 @@
             </div>
         </main>
 
-        <br><br>
-
         <!--Fila 9-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 9/remeracrema.webp" alt="Producto 33" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 9/bremeracrema.webp'"
@@ -485,7 +482,7 @@
                 <img src="../images/Merch/Fila 9/bremeracrema2.webp" alt="Producto 36 hover" width="300px" style="display:none;">
             </a>
         </div>
-    <br>
+
         <main class="flexbox">
             <div class="textoDescripcion">
                 SPEAK NOW ALBUM T-SHIRT
@@ -511,10 +508,9 @@
                 $45
             </div>
         </main>
-        <br><br>
 
         <!--Fila 10-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 10/llavero.webp" alt="Producto 37" width="300px">
             </a>
@@ -531,7 +527,6 @@
                 <img src="../images/Merch/Fila 10/gemas.webp" alt="Producto 40" width="300px">
             </a>
         </div>
-        <br>
 
         <main class="flexbox">
             <div class="textoDescripcion">
@@ -558,10 +553,9 @@
                 $15
             </div>
         </main>
-    <br><br>
 
         <!--Fila 11-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 11/remeraevermore.webp" alt="Producto 41" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 11/bremeraevermore.webp'"
@@ -584,7 +578,7 @@
                 <img src="../images/Merch/Fila 11/bpañuelo.webp" alt="Producto 44 hover" width="300px" style="display:none;">
             </a>
         </div>
-    <br>
+
         <main class="flexbox">
             <div class="textoDescripcion">
                 EVERMORE ALBUM T-SHIRT
@@ -610,10 +604,9 @@
                 $25
             </div>
         </main>
-        <br><br>
 
         <!--Fila 12-->
-        <div class="flexbox">  
+        <div class="flexbox grid">  
             <a class="ropa" href="#">
                 <img src="../images/Merch/Fila 12/agenda.webp" alt="Producto 45" width="300px"
                 onmouseover="this.src='../images/Merch/Fila 12/bagenda.webp'"
@@ -637,7 +630,6 @@
                 <img src="../images/Merch/Fila 12/bred.webp" alt="Producto 48 hover" width="300px" style="display:none;">
             </a>
         </div>
-        <br>
 
         <main class="flexbox">
             <div class="textoDescripcion">
@@ -665,7 +657,6 @@
             </div>
         </main>
 
-        <br><br>
         <footer>
             <p>Tienda de Ropa &copy; 2023</p>
         </footer>
