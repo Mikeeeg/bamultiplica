@@ -1,0 +1,11 @@
+const precio = parseFloat(prompt("Ingresa el precio del producto:"));
+const descuento = parseFloat(prompt("Ingresa el porcentaje de descuento a aplicar:"));
+
+function calcularDescuento(precio, descuento) {
+  const precioConDescuento = precio * (1 - descuento / 100);
+  return precioConDescuento < 0 ? 0 : precioConDescuento;
+}
+
+const precioConDescuento = calcularDescuento(precio, descuento);
+
+alert(`El precio con descuento es: $${precioConDescuento.toFixed(2)}`);

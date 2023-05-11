@@ -1,5 +1,9 @@
 /* Celu */
 @media(min-width: 280px) and (max-width: 600px){
+  div h1{
+    text-align: center;
+  }
+
   /* Fondo */
   body{
     background-image: url(../images/Merch/Fondo\ sn.webp);
@@ -915,5 +919,10 @@ input[type="radio"]:checked + label {
 section{
   background-image: url(../images/Merch/Fondo\ sn.webp);
   background-attachment: fixed;
+}
+
+div h1{
+  font-size: 3em;
+  text-align: center;
 }
 }

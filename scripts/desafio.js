@@ -11,8 +11,8 @@ function calcularIMC() {
     categoria = "normal";
   } else if (imc < 30) {
     categoria = "sobrepeso";
-  } else {
-    categoria = "obesidad";
+  } else if (imc = isNaN) {
+    categoria = "Numero no valido";
   }
 
   var mensaje = "Tu IMC es " + imc + ", lo que indica que tienes " + categoria;
