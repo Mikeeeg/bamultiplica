@@ -49,7 +49,7 @@ window.onload = function() {
 
 // Boton no viene
 function noViene() {
-  alert("No 😭");
+  alert("SIII VIENE!! MÁS INFO https://www.allaccess.com.ar/event/taylor-swift-the-eras-tour");
 }
 
 // Boton Compra
